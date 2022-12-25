@@ -3,24 +3,19 @@ package me.recipe.bookrecipes.model;
 import java.util.List;
 
 public class Recipe {
-    //private int id = 0;
+
     private String nameRecipe;
     private int time;
     private List<Ingredient> ingredients;
     private List<String> preparingSteps;
 
 
-    public Recipe( String nameRecipe, int time) {
+    public Recipe(String nameRecipe, int time) {
         this.nameRecipe = nameRecipe;
         this.time = time;
 
 
     }
-
-    //public int getId() {
-        //return id;
-    //}
-
 
 
     public String getNameRecipe() {
@@ -39,9 +34,6 @@ public class Recipe {
         return preparingSteps;
     }
 
-   // public void setId(int id) {
-       // this.id = id;
-    //}
 
     public void setNameRecipe(String nameRecipe) {
         this.nameRecipe = nameRecipe;

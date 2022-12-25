@@ -12,7 +12,8 @@ import java.util.TreeMap;
 public class RecipeService {
     private final Map<Integer, Recipe> recipes = new HashMap<>();
 
-    private  int id = 0;
+    private int id = 0;
+
     public Collection<Recipe> getAll() {// получение всех рец
         return recipes.values();
     }

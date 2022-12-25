@@ -10,13 +10,13 @@ public class IngredientService {
     private final Map<Integer, Ingredient> ingredients = new HashMap<>();
     private int id = 0;
 
-    public Collection<Ingredient>getAllIngredient() {// получение всех ингред
+    public Collection<Ingredient> getAllIngredient() {// получение всех ингред
         return ingredients.values();
     }
 
     public Ingredient addIngredient(Ingredient ingredient) {  // доб рец
         if (ingredients.containsKey(id)) {
-            throw new RuntimeException("Такой ингредиент уже есть!");
+            throw new RuntimeException("Такой ингредиент уже есть");
         } else {
             ingredients.put(id++, ingredient);
         }
@@ -29,4 +29,6 @@ public class IngredientService {
             return ingredients.get(id);
         } else {
             throw new RuntimeException(" Такого ингредиента нет!");
-        }}}
+        }
+    }
+}
