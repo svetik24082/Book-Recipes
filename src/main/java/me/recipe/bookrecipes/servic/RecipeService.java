@@ -26,7 +26,7 @@ public class RecipeService {
         }
     }
 
-    public Recipe addRecipe(Recipe recipe) {  // доб рец
+    public Recipe addRecipe(Recipe recipe) {
         if (recipes.containsKey(id)) {
             throw new RuntimeException("Такой рецепт уже есть!");
         } else {

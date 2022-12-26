@@ -14,9 +14,7 @@ public class Recipe {
         this.nameRecipe = nameRecipe;
         this.time = time;
 
-
     }
-
 
     public String getNameRecipe() {
         return nameRecipe;
@@ -33,7 +31,6 @@ public class Recipe {
     public List<String> getPreparingSteps() {
         return preparingSteps;
     }
-
 
     public void setNameRecipe(String nameRecipe) {
         this.nameRecipe = nameRecipe;

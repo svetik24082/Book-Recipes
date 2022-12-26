@@ -11,7 +11,7 @@ import java.util.Collection;
 public class RecipeController {
     public final RecipeService recipeService;
 
-    public RecipeController(RecipeService recipeService) { //
+    public RecipeController(RecipeService recipeService) {
         this.recipeService = recipeService;
     }
 
