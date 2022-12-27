@@ -1,9 +1,9 @@
 package me.recipe.bookrecipes.model;
 
 public class Ingredient {
-    private  String nameIngredient;
-    private int amount;    // кол-во
-    private  String unit;  // ед.измер
+    private String nameIngredient;
+    private int amount;    // кол-во инг
+    private String unit;  // ед.измерения
 
     public Ingredient(String nameIngredient, int amount, String unit) {
         this.nameIngredient = nameIngredient;
